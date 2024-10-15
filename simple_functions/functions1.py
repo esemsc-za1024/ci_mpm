@@ -8,6 +8,7 @@ def my_sum(iterable):
         tot += i
     return tot
 
+
 @cache
 def factorial(n):
     return n * factorial(n-1) if n else 1
